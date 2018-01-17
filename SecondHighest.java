@@ -3,7 +3,7 @@ public class SecondHighest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = { 10, 20, 30, 40, 90, 85, 80 };
+		int arr[] = { 10, 20, 30, 40, 90, 85, 80, 92 };
 		System.out.println("The second highest element is: " + secHigh(arr));
 	}
 
