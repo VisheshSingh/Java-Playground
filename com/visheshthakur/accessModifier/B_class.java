@@ -25,13 +25,12 @@ public class B_class extends A_class {
 		// myObj.printHi(); // compilation error
 
 		// ACCESS SPECIFIER - PROTECTED
-		B_class b = new B_class();
+		B_class b = new B_class(); // TODO:RELEVANT NAMES
 		System.out.println("University ID#: " + b.U_id());
 
 		// ACCESS SPECIFIER - PUBLIC
 		System.out.println("Weight: " + b.weight());
 
-		b.getWorkPlace();
+		b.getWorkPlace();// NO NEED TO USE AN OBJECT
 	}
-
 }

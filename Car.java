@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Car {
 
-	private int speed;
+	private int speed;// TODO: fuelLevel, MilesInGallons, NumOfMilesTravelled use them to calculate
+						// relevant distance can be traveled
 
 	public int getSpeed() {
 		return speed;

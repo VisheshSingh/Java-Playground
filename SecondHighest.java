@@ -8,17 +8,17 @@ public class SecondHighest {
 	}
 
 	public static int secHigh(int[] arr) {
-		int highest = Integer.MIN_VALUE;
-		int sec = Integer.MIN_VALUE;
+		int highest = Integer.MIN_VALUE;// -2^31 - Might use Min_Value
+		int secHighest = Integer.MIN_VALUE;// -2^31
 		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] > highest) {
-				sec = highest;
-				highest = arr[i];
-			} else if (arr[i] > sec) {
-				sec = arr[i];
+			if (arr[i] > highest) { // Reverse The condition for getting the second least
+				secHighest = highest;// System.out.println(secHighest);
+				highest = arr[i];// System.out.println(highest);
+			} else if (arr[i] > secHighest) {
+				secHighest = arr[i];
 			}
 		}
-		return sec;
+		return secHighest;
 	}
 
 }
