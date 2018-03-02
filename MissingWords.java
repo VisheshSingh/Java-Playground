@@ -10,6 +10,7 @@ public class MissingWords {
 		String newT[] = t.split(" ");
 		List<String> li = new ArrayList<String>();
 		// Iterate through the loop
+		// Hey
 		for (int i = 0, j = 0; i < newS.length;) {
 
 			if (j >= newT.length) {
